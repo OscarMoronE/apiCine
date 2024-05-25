@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(229, 231, 238);
+    font-family: 'Archivo Black', sans-serif;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#imagenSection {
+    display: flex;
+    width: 100%;
+    height: 430px;
+}
+
+#imagenSection img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+#imagenSection img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+#cabecera {
+    background-color: #e4a129;
+    padding: 0.50%;
+}
+
+#contenedorPrincipal {
+    background-color: white;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    padding: 2vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+#icono {
+    color: #ffffff;
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#viewOpcions {
+    cursor: pointer;
+}
+
+#seleccion {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20vw;
+    border-radius: 1vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
+
+.input-container {
+    margin-top: -50%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+
+}
+
+#labelQueVer {
+    color: rgb(64, 64, 65);
+}
+
+#queVeras {
+    flex-grow: 1;
+    padding: 0.5vw;
+    font-size: 1.1vw;
+    border-radius: 1vw;
+    border: 1px solid #ccc;
+}
+
+#buscar {
+    background-color: rgb(174, 73, 73);
+    color: white;
+    border-radius: 1vw;
+    padding: 0.7vw;
+    font-size: 1.1vw;
+    border-style: none;
+    cursor: pointer;
+}
+
+#buscar:hover {
+    background-color: #e5c300;
+    padding: 0.8vw;
+}

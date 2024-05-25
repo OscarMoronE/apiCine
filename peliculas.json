@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "nombre": "KING RICHARD",
+            "sinopsis": "Richard Williams ayudó a criar a dos de las deportistas más extraordinarias de todos los tiempos, dos atletas que acabarían cambiando para siempre el deporte del tenis. Sirviéndose de métodos poco convencionales, elaboró un plan que convertiría a Venus y Serena Williams en iconos legendarios."
+        },
+        {
+            "nombre": "MILES MORALES",
+            "sinopsis": "Después de reunirse con Gwen Stacy, el amigable vecino de tiempo completo de Brooklyn Spiderman, es lanzado a través del multiverso, donde se encuentra a un equipo de gente araña encomendada con proteger su mera existencia."
+        },
+        {
+            "nombre": "HIDDEN FIGURES",
+            "sinopsis": "La increíble historia real nunca antes contada de Katherine G. Johnson, Dorothy Vaughan y Mary Jackson, tres brillantes mujeres científicas afroamericanas que trabajaron en la NASA a comienzos de los años setenta, en plena carrera espacial y en la lucha por los derechos civiles de la comunidad negra estadounidense."
+        },
+        {
+            "nombre": "AVATAR",
+            "sinopsis": "En un exuberante planeta llamado Pandora viven los Na'vi, seres que aparentan ser primitivos pero que en realidad son muy evolucionados. Debido a que el ambiente de Pandora es venenoso, los híbridos humanos/Na'vi, llamados Avatares, están relacionados con las mentes humanas, lo que les permite moverse libremente por Pandora."
+        },
+        {
+            "nombre": "STAR WAR III",
+            "sinopsis": "¡Guerra! La República se desmorona bajo los ataques del despiadado Lord Sith, el conde Dooku. Hay héroes en ambos bandos, pero el mal está por doquier. En una contundente jugada, el diabólico líder droide, el general Grievous, ha irrumpido en la capital de la República y ha secuestrado al Canciller Palpatine, líder del senado Galáctico."
+        }
+    ]
+}

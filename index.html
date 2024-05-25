@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagen/cine.jpg">
+    <script src="https://kit.fontawesome.com/01d0c5d349.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+    <title>Movie Con</title>
+</head>
+
+<body>
+    <div id="cabecera">
+        <h1 id="title"><i id="icono" class="fa-solid fa-ticket"></i> Welcome to Sweet Theater <i id="icono"
+                class="fa-solid fa-ticket"></i></h1>
+    </div>
+    <section id="imagenSection">
+        <img src="imagen/avatar.jpg" alt="">
+        <img src="imagen/dark.jpg" alt="">
+        <img src="imagen/starWar.jpg" alt="">
+        <img src="imagen/theBoys.jpg" alt="">
+        <img src="imagen/theOficce.jpg" alt="">
+        <img src="imagen/breaking.jpg" alt="">
+        <img src="imagen/miles.jpg" alt="">
+        <img src="imagen/scale.jpg" alt="">
+    </section>
+
+    <div id="contenedorPrincipal">
+
+        <div id="seleccionador">
+            <label for=""><i class="fa-solid fa-film fa-2x"></i></label>
+            <select name="" id="viewOpcions">
+                <option value="" disabled selected>Selecciona tu opción</option>
+                <option value="series.json">Series</option>
+                <option value="peliculas.json">Películas</option>
+            </select>
+        </div>
+
+        <div id="seleccion">
+            <div class="input-container">
+                <label id="labelQueVer" for="queVeras">¿Que veras hoy? </label>
+                <input class="inputWatch" id="queVeras" type="text" placeholder="Ingrese para buscar">
+                <button id="buscar" disabled="true">Buscar</button>
+            </div>
+            <ul id="lista"></ul>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

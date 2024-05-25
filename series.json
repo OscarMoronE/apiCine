@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "nombre": "DARK",
+            "sinopsis": "La desaparición de un niño local aterroriza a los habitantes de Winden, un pueblito alemán con una historia tan trágica como extraña."
+        },
+        {
+            "nombre": "BREAKING BAD",
+            "sinopsis": "Tras cumplir 50 años, Walter White, un profesor de química se entera de que tiene un cáncer de pulmón incurable. La brutal noticia lo impulsa a dar un drástico cambio a su vida: decide, con la ayuda de un antiguo alumno, fabricar anfetaminas y ponerlas a la venta."
+        },
+        {
+            "nombre": "THE OFFICE",
+            "sinopsis": "Corrosivo retrato de los miembros de una empresa."
+        },
+        {
+            "nombre": "THE BOYS",
+            "sinopsis": "The Boys está ambientada en un universo en el que los individuos superpoderosos son reconocidos como héroes por el público en general y trabajan para la poderosa corporación Vought International, que los comercializa y monetiza."
+        }
+    ]
+}
