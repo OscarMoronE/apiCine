@@ -2,7 +2,7 @@ let viewOpcions = document.getElementById("viewOpcions");
 let inputWatch = document.getElementById("queVeras");
 let buscar = document.getElementById("buscar");
 let lista = document.getElementById("lista");
-
+let conteBtn = document.getElementById("conteBtn");
 
 //Capturas de opciones peliculas o series
 viewOpcions.addEventListener("change", variableCambio);
@@ -71,6 +71,12 @@ function btnBuscar() {
 
                     lista.appendChild(li);
                     lista.appendChild(parrafoPeli);
+
+                    let btnTrailer = document.createElement("a");
+                    btnTrailer.classList.add("btnTrailer");
+                    btnTrailer.setAttribute("href", item.trailer);
+                    btnTrailer.innerHTML = 'Ver Trailer <i class="fa-brands fa-youtube"></i>';
+                    lista.appendChild(btnTrailer);
                 }
             }
         }))
@@ -94,13 +100,15 @@ function btnBuscar() {
 
                     lista.appendChild(li);
                     lista.appendChild(parrafo);
+
+                    let btnTrailer = document.createElement("a");
+                    btnTrailer.classList.add("btnTrailer");
+                    btnTrailer.setAttribute("href", item.trailer);
+                    btnTrailer.innerHTML = 'Ver Trailer <i class="fa-brands fa-youtube"></i>';
+                    lista.appendChild(btnTrailer);
                 }
-
             }
-
-
         }))
-
         .catch(function (error) {
             console.log(error);
         })
